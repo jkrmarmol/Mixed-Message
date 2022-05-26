@@ -4,3 +4,5 @@ const randMessage = () => {
     let randomNum = Math.floor(Math.random() * arrMessage.length);
     return arrMessage[randomNum];
 }
+
+console.log(randMessage())
